@@ -1,0 +1,63 @@
+@import '../../../styles/contants.scss';
+
+.wrapper{
+    background-color:  white;
+
+    .container{
+        @media (max-width: $sm){
+            justify-content: center;
+            text-align: center;
+            flex-direction: column;
+            gap: 2rem;
+        }
+        display:flex;
+        flex-direction: row;
+        justify-content: space-between;
+        
+
+        .leftSide{
+
+            
+            @media (max-width: $sm){
+                padding: 3rem 2rem;
+                // background-color: white;
+                display: flex;
+                flex-direction: column;
+                justify-content:flex-start;
+                gap: 1.3rem;
+            }
+            // width: 60%;
+            padding: 3rem 6rem;
+            // background-color: white;
+            border: 5px solid #F8F7F1;
+            border-radius: 2rem;
+            display: flex;
+            flex-direction: column;
+            // align-items: center;
+            justify-content:flex-start;
+            gap: 1.3rem;
+
+            .amount{
+
+                @media (max-width: $sm){
+                 
+                    justify-content:center;
+                }
+
+                display: flex;
+                justify-content: flex-end;
+                span{
+                    color: red!important;
+                }
+                
+            }
+
+        }
+
+        .rightSide{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+    }
+}

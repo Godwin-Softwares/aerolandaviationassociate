@@ -1,0 +1,186 @@
+@import '../../../styles/contants.scss';
+
+.wrapper{
+    overflow: hidden;
+
+    .container{
+        position: relative;
+        z-index: 1;
+
+        .upperElements{
+
+            @media (max-width: $sm){
+                justify-content: center;
+                text-align: center;
+                flex-direction: column;
+                gap: 2rem;
+            }
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            flex-wrap: wrap;
+
+            .caption{
+                @media (max-width: $sm){
+                    justify-content: center;
+                    text-align: center;
+                    flex-direction: column;
+                    gap: 2rem;
+                }
+            }
+
+
+            .apply{
+
+                @media (max-width: $sm){
+                    position: relative;
+                    top: 40%;
+                    left: 0%;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    // display: none;
+                  
+                 }
+
+                position: absolute;
+                top: 30%;
+                left: 0;
+                width: 200px;
+                color: $secondary-white;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                background-color: $secondary;
+                border-radius: 5px;
+                padding: 1rem;
+                text-decoration: none;
+                font-size: 24px;
+                font-weight: 500;
+
+            }
+
+            .certificate{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+
+                img{
+
+                    margin-bottom: 1rem;
+                    width: 3.5rem;
+                }
+
+                .expect{
+                    display: flex;
+                    flex-direction: row;
+                    align-items: center;
+                    justify-content: space-between;
+
+
+                }
+                
+            }
+        }
+
+        .lowerElements {
+
+            @media (max-width: $sm), (max-width: $md){
+              margin-top: 4rem;
+              gap: 2rem;
+              justify-content: center;
+            }
+
+            margin-top: 5rem;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+
+            .experience{
+                display: flex;
+                align-items: center;
+                gap: 1rem;
+
+                >:nth-child(2){
+                    line-height: 25px;
+                }
+            }
+
+            .ticket{
+                @media (max-width: $sm){
+                    display: block;
+                }
+            }
+
+           
+        }
+
+        .person{
+            @media (max-width: $sm), (max-width: $md){
+
+                display: none;
+            //    position: relative;
+            //    top: 0%;
+            //    left: 0%;
+            // //    background-size: 10rem;
+            //    display: flex;
+            //    align-items: center;
+            //    justify-content: center;
+            //    background-position: bottom;
+           
+            //    bottom: -1rem;
+
+            //    img{
+            //     // width: 420px;
+            //     width: 23rem;
+            //    }
+            }
+            position: absolute;
+            bottom: -2rem;
+            margin: auto;
+            background-image: url('../cloud.png');
+            background-repeat: no-repeat;
+            background-size: 38rem;
+            left: 25%;
+        }
+
+        .flight{
+            @media (max-width: $sm), (max-width: $md){
+               position: relative;
+               display: none;
+               top: 0%;
+               left: 0%;
+            // //    background-size: 10rem;
+            //    display: flex;
+            //    align-items: center;
+            //    justify-content: center;
+            //    background-position: bottom;
+           
+            //    bottom: -1rem;
+
+               img{
+                // width: 420px;
+                width: 23rem;
+               }
+            }
+
+            display: none;
+            // position: absolute;
+            // bottom: -2rem;
+            // margin: auto;
+            // background-image: url('../splash.png');
+            // background-repeat: no-repeat;
+            // background-size: 13rem;
+            left: 23%;
+        }
+
+       
+
+            
+        
+
+       
+
+    }
+
+}

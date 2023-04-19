@@ -31,6 +31,27 @@
   padding-bottom: 1.5rem;
 }
 
+.padding {
+  @media (min-width: $sm) {
+    padding-left: 4rem;
+    padding-right: 4rem;
+    padding-top: 4rem;
+    padding-bottom: 0rem;
+  }
+
+
+  @media (min-width: $xl),
+  (min-width: $md) {
+    padding-top: 2rem;
+    // padding-bottom: 2rem;
+  }
+
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  padding-top: 1.5rem;
+  // padding-bottom: 1rem;
+}
+
 
 
 .xPaddings {
@@ -107,22 +128,102 @@
   @media (max-width: $sm) {
     font-size: 2.5rem;
   }
-  font-size: 3rem;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+
+.primaryText1 {
+  @media (max-width: $sm) {
+    font-size: 2rem;
+  }
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.primaryText2 {
+  @media (max-width: $sm) {
+    font-size: 1rem;
+  }
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.primaryText3 {
+  @media (max-width: $sm) {
+    font-size: 1.8rem;
+    font-weight: bold;
+  }
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.primaryText4 {
+  @media (max-width: $sm) {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  font-size: 2.5rem;
   font-weight: bold;
 }
 
 .secondaryText {
   @media (max-width: $sm) {
     font-size: 1.1rem;
-    line-height: 40px;
+    line-height: 20px;
   }
-  line-height: 50px;
+  line-height: 30px;
   font-size: 1.3rem;
   font-weight: 500
 }
+
+.secondaryText1 {
+  @media (max-width: $sm) {
+    font-size: 1.1rem;
+    line-height: 20px;
+  }
+  line-height: 20px;
+  font-size: 1.3rem;
+  font-weight: 500
+}
+
+.secondaryText3 {
+  @media (max-width: $sm) {
+    font-size: 0.7rem;
+    line-height: 20px;
+    
+  }
+  line-height: 30px;
+  font-size: 0.9rem;
+  font-weight: 500
+}
+
+.secondaryText4 {
+  @media (max-width: $sm) {
+    font-size: 0.8rem;
+    line-height: 20px;
+    
+  }
+  line-height: 20px;
+  font-size: 0.9rem;
+  font-weight: bold
+}
+
+
+// .secondaryText {
+//   @media (max-width: $sm) {
+//     font-size: 1.1rem;
+//     line-height: 20px;
+//   }
+//   line-height: 30px;
+//   font-size: 1.3rem;
+//   font-weight: 500
+// }
+
 .anchor {
   display: block;
   position: relative;
   top: -100px;
   visibility: hidden;
 }
+

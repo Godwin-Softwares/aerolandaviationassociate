@@ -1,0 +1,10 @@
+@import '../../styles/contants.scss';
+
+.wrapper{
+    width: 100%;
+    background-color: white;
+
+    .container{
+        display: flex;
+    }
+}

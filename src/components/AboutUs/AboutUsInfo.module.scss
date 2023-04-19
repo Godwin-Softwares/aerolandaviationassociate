@@ -1,0 +1,110 @@
+@import '../../styles/contants.scss';
+
+.wrapper{
+    background-color: white;
+
+    .container{
+
+        @media (max-width: $sm) {
+            flex-direction: column;
+            gap: 2rem;
+        }
+        display: flex;
+        width: 100%;
+        flex-direction: row;
+        justify-content: space-between;
+        // align-items: center;
+
+        .leftSide{
+
+            @media (max-width: $sm) {
+                width: 100%;
+                padding:1rem;
+            }
+            display: flex;
+            width: 49%;
+            gap: 2rem;
+            padding: 2rem;
+            border: 3px solid #F8F7F1;
+            flex-direction: column;
+
+            .apply{
+                display: flex;
+                align-items: center;
+                justify-content: flex-start;
+
+                img{
+                    margin-left: 10px;
+                }
+            }
+
+            .applyContent{
+                display: flex;
+                flex-direction: column;
+
+                .applyContentHeading{
+                    margin-bottom: 2rem;
+                }
+
+                .applyContentDetails{
+                    line-height: 2rem;
+                }
+            }
+
+        }
+
+        .rightSide{
+
+            @media (max-width: $sm) {
+                width: 100%;
+                padding:1rem;
+            }
+            display: flex;
+            width: 49%;
+            gap: 2rem;
+            padding: 2rem;
+            border: 3px solid #F8F7F1;
+            flex-direction: column;
+
+            .apply{
+                display: flex;
+                align-items: center;
+                justify-content: flex-start;
+
+                img{
+                    margin-left: 10px;
+                }
+            }
+
+            .applyContent{
+                display: flex;
+                flex-direction: column;
+
+                .applyContentHeading{
+                    margin-bottom: 2rem;
+                }
+
+                .applyContentDetails{
+                    line-height: 2rem;
+                }
+            }
+
+            .approved{
+
+                @media (max-width: $sm) {
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    width: 100%;
+                    gap: 2rem;
+                }
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                justify-content: space-between;
+                margin-top: 2rem;
+            }
+
+        }
+    }
+}

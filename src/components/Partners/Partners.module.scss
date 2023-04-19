@@ -1,0 +1,53 @@
+@import '../../styles/contants.scss';
+
+.wrapper{
+        background: white;
+        border-bottom: 5px solid #F8F7F1;
+        border-top: 5px solid #F8F7F1;
+    .container{
+
+        @media (max-width: $sm){
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-between;
+            gap: 2rem;
+         }
+        // display: flex;
+        // // padding: 2rem 0rem;
+        // flex-direction: row;
+        // justify-content: space-between;
+
+        .heading{
+            flex-direction: column;
+            margin-bottom: 1rem;
+        }
+
+        .logos{
+
+            @media (max-width: $sm){
+                display: flex;
+                flex-direction: row;
+                flex-wrap: wrap;
+                justify-content: space-around;
+
+                img{
+                    padding: 0.5rem!important;
+                    margin: 0.5rem!important;
+                    width: 150px;
+                }
+             }
+
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: space-between;
+
+            img{
+                padding: 1rem;
+                margin: 1rem;
+            }
+        }
+
+
+    }
+}

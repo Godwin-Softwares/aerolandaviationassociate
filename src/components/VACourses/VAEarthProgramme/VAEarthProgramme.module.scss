@@ -1,0 +1,90 @@
+@import '../../../styles/contants.scss';
+
+.wrapper{
+    background-color: #F8F7F1;
+
+    .container{
+
+        // display: flex;
+        // flex-direction: column;
+
+        .heading{
+            flex-direction: column;
+            margin-bottom: 1rem;
+
+           
+        }
+
+        @media (max-width: $sm){
+            // justify-content: center;
+            // text-align: center;
+            flex-direction: column;
+            gap: 2rem;
+        }
+        display:flex;
+        flex-direction: column;
+        justify-content: space-between;
+        
+        .bottom{
+
+            @media (max-width: $sm){
+                // justify-content: center;
+                // text-align: center;
+                flex-direction: column;
+                gap: 2rem;
+                width: 100%;
+                display: flex;
+            }
+
+            display: flex;
+            flex-direction: row;
+            width: 100%;
+
+            .leftSide{
+
+                
+                @media (max-width: $sm){
+                    // padding: 3rem 2rem;
+                    // // background-color: white;
+                    display: flex;
+                    // flex-direction: column;
+                    justify-content:flex-start;
+
+                  
+                }
+                // padding: 3rem ;
+                display: flex;
+                flex-direction: column;
+                justify-content:flex-start;
+                gap: 1.3rem;
+
+              
+                .content{
+
+                    @media (max-width: $sm){
+                      
+                        padding: 0px;
+                    }
+                    padding: 1rem 4rem;
+                }
+              
+            }
+
+        }
+
+        .rightSide{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            img{
+
+                width: 30rem;
+                @media (max-width: $sm){
+                    width: 20rem;
+                }
+                
+            }
+        }
+    }
+}
