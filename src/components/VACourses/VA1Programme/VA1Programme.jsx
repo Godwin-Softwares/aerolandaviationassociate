@@ -25,7 +25,7 @@ const VA1Programme = () => {
         <motion.div 
           variants={fadeIn("right", "tween", 0.4, 1)}
           className={css.rightSide}>
-            <img src='./airplane-passportbg.png' alt=''/>
+            <img src='./passport-air.png' alt=''/>
         </motion.div>    
         <motion.div
           variants={fadeIn("left", "tween", 0.2, 1)}
