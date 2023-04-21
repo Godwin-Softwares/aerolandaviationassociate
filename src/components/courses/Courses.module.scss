@@ -38,6 +38,16 @@
                     }
                     display: flex;
                     width: 500px;
+
+                    .expTop{
+                        display: flex;
+                        justify-content: space-between;
+
+                        .amount{
+                            color: red;
+                            font-size: 16px;
+                        }
+                    }
                 }
 
                 .links{

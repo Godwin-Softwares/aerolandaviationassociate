@@ -9,6 +9,7 @@ export const projectExperience = [
     icon: IoIosSend,
     bg: "#9bce97",
     path:'VA1',
+    amount:'N50,000.00'
   },
   {
     name: "VA-2:",
@@ -16,6 +17,7 @@ export const projectExperience = [
     icon: ImAirplane,
     bg: "#8cacd6",
     path:'VA2',
+    amount:'N80,000.00'
   },
   {
     name: "VA-Earth:",
@@ -23,6 +25,7 @@ export const projectExperience = [
     icon: IoIosJet,
     bg: "#F26440",
     path:'VAEarth',
+    amount:'N100,000.00'
   },
 ];
 

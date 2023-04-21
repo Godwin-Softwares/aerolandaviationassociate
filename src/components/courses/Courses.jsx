@@ -29,7 +29,10 @@ const Courses = () => {
                                 <exp.icon size={25} color='white'/>
                             </div>
                             <div className={css.expBase}>
-                                <span>{exp.name}</span>
+                                <div className={css.expTop}>
+                                    <span>{exp.name}</span>
+                                    <span className={css.amount}>{exp.amount}</span>
+                                </div>
                                 <span className='secondaryText'>{exp.projects}</span>
                                 <div style={{display:'flex', flexDirection:'row', alignItems:'center', justifyContent:'space-between'}}>
                                     <span className='secondaryText'><img src='./virgin-atlantic.png' alt='' style={{width:'150px'}}/></span>
