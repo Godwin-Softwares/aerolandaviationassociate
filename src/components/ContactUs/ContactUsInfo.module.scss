@@ -28,17 +28,83 @@
             border: 3px solid #F8F7F1;
             flex-direction: column;
 
-            .applyContent{
+            .contactHeading{
+                margin-bottom: 2rem;
+                margin-top: 2rem;
+            }
+
+            .contactContainer{
                 display: flex;
                 flex-direction: column;
 
-                .applyContentHeading{
+                
+
+                .contactInfo{
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: space-between;
+                    gap: 2rem;
                     margin-bottom: 2rem;
+
+                    .contactInfoContent{
+                        display: flex;
+                        flex-direction: row;
+
+                        .photos{
+                            display: flex;
+                            flex: 1;
+                            // height: 1rem;
+                            .photo{
+                                width: 1.5rem;
+                            }
+                        }
+
+                        .contactDetails{
+                            display: flex;
+                            flex: 2;
+                        }
+                    }
                 }
 
-                .applyContentDetails{
-                    line-height: 2rem;
+                .formContainer{
+                    display: flex;
+                    flex-direction: column;
+
+                    .form{
+                        display: flex;
+                        flex-direction: column;
+                        gap: 2rem;
+
+                        .formInfo{
+                            display: flex;
+                            width: 100%;
+                           
+
+                            label{
+                                width: 30%;
+                            }
+
+                            .textbox{
+                                width: 60%;
+                                padding: 1rem;
+                            }
+
+                            .message{
+                                width: 60%;
+                                padding: 1rem;
+                            }
+
+                            .button{
+                                padding: 1rem;
+                            }
+
+                        }
+
+                       
+                    }
                 }
+
+              
             }
 
         }
@@ -55,6 +121,7 @@
             padding: 1rem;
             border: 3px solid #F8F7F1;
             flex-direction: column;
+            background-color: #F8F7F1;
 
             .allCourses{
                 margin-bottom: 2rem;
@@ -70,11 +137,12 @@
                     display: flex;
                     flex-direction: row;
                     margin-bottom: 1rem;
-                    border: 5px solid #F8F7F1;
+                    border: 5px solid rgb(217, 245, 219);
                     border-radius: 20px;
 
                     &:hover{
-                        border: 5px solid rgb(217, 245, 219);
+                        border: 5px solid rgb(250, 188, 163);
+                        border-radius: 20px;
                     }
 
                     .expContent{

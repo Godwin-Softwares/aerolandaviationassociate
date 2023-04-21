@@ -23,14 +23,14 @@ const VA1Programme = () => {
         
         className={css.bottom}>
         <motion.div 
-          variants={fadeIn("left", "tween", 0.4, 1)}
+          variants={fadeIn("right", "tween", 0.4, 1)}
           className={css.rightSide}>
             <img src='./airplane-passportbg.png' alt=''/>
         </motion.div>    
         <motion.div
-          variants={fadeIn("right", "tween", 0.2, 1)}
+          variants={fadeIn("left", "tween", 0.2, 1)}
           className={css.leftSide}>
-          <p className='primaryText2'>VA-1: Level 2 Award in VA Fares and Ticketing</p>
+          {/* <p className='primaryText2'>VA-1: Level 2 Award in VA Fares and Ticketing</p> */}
           <p className={css.content}>
             The Virgin Atlantic/GTMC Fares & Ticketing Courses have been developed by some of the travel industry's top course writers. The result is a fresh contemporary approach and a thoroughness for which Virgin is famous. The objective is to provide training programmes leading to valuable qualifications that demonstrate professional competence on the part of the holder.
            <br/>

@@ -7,13 +7,48 @@ const ContactUsInfo = () => {
     <div className={css.wrapper}>
          <div className={`paddings yPaddings innerWidth ${css.container}`}>
             <div className={css.leftSide}>
-                <div className= {`secondaryText ${css.apply}`}>Our Address</div>
-                 <div className={css.applyContent}>
-                    {/* <div className={`secondaryText1 ${css.applyContentHeading}`}>Step 1: Choose Your Course</div> */}
-                    <p className={css.applyContentDetails}>
-                    The Virgin Atlantic/GTMC Fares & Ticketing Courses have been developed by some of the travel industry's top course writers. The result is a fresh contemporary approach and a thoroughness for which Virgin is famous. The objective is to provide training programmes leading to valuable qualifications that demonstrate professional competence on the part of the holder.
-                    </p>
-                </div> 
+                <div className= {`secondaryText ${css.contactHeading}`}>Our Contact Info</div>
+                    <div className={css.contactContainer}>
+                        <div className={css.contactInfo}>
+                           
+                            <div className={css.contactInfoContent}>
+                            <span className={css.photos}><img src='./location.png' alt='' className={css.photo} /></span>
+                            <p className={css.contactDetails}>2a John Olugbo Ikeja Lagos</p>
+                            </div>
+                            <div className={css.contactInfoContent}>
+                            <span className={css.photos}><img src='./telephone.png' alt='' className={css.photo} /></span>
+                            <p className={css.contactDetails}>090-700-700-27 </p>
+                            </div>
+                            <div className={css.contactInfoContent}>
+                                <span className={css.photos}><img src='./email.png' alt='' className={css.photo} /></span>
+                               <p className={css.contactDetails}>info@aerolandtravels.com</p>
+                            </div>
+                        </div>
+                        <div className= {`secondaryText ${css.contactHeading}`}>Send us a Message</div>
+                        <div className={css.formContainer}>
+                            <form  className={css.form}>
+                                <div className={css.formInfo}>
+                                    <label>Your Name</label>
+                                    <input type='text' className={css.textbox} />
+                                </div>
+                                <div className={css.formInfo}>
+                                    <label>Your Email</label>
+                                    <input type='email' className={css.textbox} />
+                                </div>
+                                <div className={css.formInfo}>
+                                    <label>Your Message</label>
+                                    <textarea rows={4} className={css.message}></textarea>
+                                </div>
+                                <div className={css.formInfo}>
+                                    <label></label>
+                                    <button className={css.button} >Send Message</button>
+                                </div>
+
+                            </form>
+                        </div>
+                       
+                    </div>
+                    
 
             </div>
             <div className={css.rightSide}>
@@ -30,7 +65,7 @@ const ContactUsInfo = () => {
                                 className={css.exp} key={i}>
                            
                        
-                            <div className='flexCenter' style={{background:exp.bg, padding:10, borderTopLeftRadius:20, borderBottomLeftRadius:20}}>
+                            <div className='flexCenter' style={{background:exp.bg, padding:10, borderTopLeftRadius:15, borderBottomLeftRadius:15}}>
                                 <exp.icon size={25} color='white'/>
                             </div>
                             <div className={css.expContent}>

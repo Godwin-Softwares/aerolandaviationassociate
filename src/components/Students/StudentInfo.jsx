@@ -1,5 +1,6 @@
 import React from 'react'
 import css from './StudentInfo.module.scss'
+
 import { projectExperience } from '../../utils/data'
 
 const StudentInfo = () => {

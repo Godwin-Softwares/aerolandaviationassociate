@@ -15,6 +15,12 @@ const values = [
     { id : 7, text : "Contact us", link: "/contact"},
   ]
 
+  const subjects = [
+    { id : 1, text : "VA-1: Level 2 Award in VA Fares and Ticketing", link: "/VA1"},
+    { id : 2, text : "VA-2: Level 3 Award in VA Fares and Ticketing", link: "/VA2"},
+    { id : 3, text : "VA-Earth: Level 2 Award in VA Earth ", link: "/VAEarth"},
+  ]
+
 
 const Header = () => {
 
@@ -46,21 +52,44 @@ const Header = () => {
                          
                         <li key = {i} >
                              <NavLink to={value.link} style={({ isActive }) => ({
-                               backgroundColor: isActive &&  "#F26440",
+                               backgroundColor: isActive &&  "#9bce97",
                                textDecoration:"none",
-                               display:"flex",
+                               display:"block",
                                alignItems:"center",
                                justifyContent:"center",
                                width:"100%",
                                height:"100%",
                                borderRadius:"5px",
-                               padding:"5px",
-                               color: isActive ? "white" : "green"
-                             })}>
+                               padding:"10px",
+                               color: isActive ? "white" : "inherit",
+
+                             })}   className={css.nav}>
                              {/* <value.iconName className='icon'/> */}
                              <span>{value.text}</span>
                              </NavLink>
                             
+                             {value.text === 'Courses' && 
+
+                                <ul className={css.dropDown}>
+                                    
+                                {  subjects.map((subject, i) =>
+
+                                        <>
+                                        <li key={i}>
+
+                                        <a href={subject.link}>
+                                            {subject.text}
+                                            </a>
+                                        </li>
+                                        </>
+                                    
+                                    )
+
+                                }
+
+                                </ul>
+
+                                }
                            </li>
                         </>
                       

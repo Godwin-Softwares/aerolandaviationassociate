@@ -23,7 +23,7 @@ const Footer = () => {
                         <img src='./virgin-atlantic.png' alt='' width={100}/>
                     </div>
                     <div className={css.leftSideRight}>
-                    <p className='secondaryText4'>Our Menu</p>   
+                    <p className='secondaryText4'>Menu</p>   
                         <ul>
                             <li ><a href='/'>Home</a></li>
                             <li><a href='courses'>Courses</a></li>
@@ -57,7 +57,7 @@ const Footer = () => {
                     <div className={css.rightSideRight}>
                     <p className={` secondaryText4 ${css.container}`}>Recognised and Regulated by Confederation of Tourism and Hospitality</p>  
                     <p className={css.content}>
-                    Aeroland and CTH is recognised and regulated by Ofqual, the regulator for qualifications, exams and tests in England. Ofqual's work ensures that learners get the results they deserve and that the qualifications they receive count, both now and in the future. Unless otherwise indicated, all CTH qualifications sit within the Ofqual’s Regulated Qualifications Framework (RQF) that has replaced both the Qualifications and Credit Framework (QCF) and the National Qualifications Framework (NQF), and can be found on Ofqual’s Register of Regulated Qualifications.
+                    Aeroland Aviation Associate is recognised and regulated by CHT and Ofqual, the regulator for qualifications, exams and tests in England. Ofqual's work ensures that learners get the results they deserve and that the qualifications they receive count, both now and in the future. Unless otherwise indicated, all CTH qualifications sit within the Ofqual’s Regulated Qualifications Framework (RQF) that has replaced both the Qualifications and Credit Framework (QCF) and the National Qualifications Framework (NQF), and can be found on Ofqual’s Register of Regulated Qualifications.
                     </p>
                     </div>
                 </div>
