@@ -8,7 +8,7 @@ const StudentInfo = () => {
     <div className={css.wrapper}>
          <div className={`paddings yPaddings innerWidth ${css.container}`}>
             <div className={css.leftSide}>
-                <div className= {`secondaryText ${css.apply}`}>HOW TO APPLY</div>
+                <div className= {`secondaryText ${css.apply}`}>STUDENT GUIDE</div>
                
                 <div className={css.applyContent}>
                    <p className={css.applyContentDetails}>
