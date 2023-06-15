@@ -22,7 +22,7 @@ const VA2Hero = () => {
             <div className={`primaryText2 ${css.caption}`}>VA-2: Level 3 Award in VA Fares and Ticketing</div>
             <div className=''>This Virgin Atlantic-2 (VA-2) Level 3 Award is a more advanced industry-standard training course in manual Fares & Ticketing.</div>
             <img src='./virgin-atlantic.png' width={200}/>
-            <div className={`primaryText1 ${css.amount}`}><span>₦70,000.00</span></div>
+            <div className={`primaryText1 ${css.amount}`}><span>₦80,000.00</span></div>
           </div>
 
           <div className={css.leftSideRight}>

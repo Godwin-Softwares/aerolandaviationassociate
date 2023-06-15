@@ -22,7 +22,7 @@ const VAEarthHero = () => {
             <div className={`primaryText2 ${css.caption}`}>VA-Earth: Level 2 Award in VA Earth</div>
             <div className=''>The Virgin Atlantic Earth Level 2 Award is a must for all aspiring Hospitality and Tourism enthusiasts.</div>
             <img src='./virgin-atlantic.png' width={200}/>
-            <div className={`primaryText1 ${css.amount}`}><span>₦90,000.00</span></div>
+            <div className={`primaryText1 ${css.amount}`}><span>₦100,000.00</span></div>
           </div>
 
           <div className={css.leftSideRight}>
