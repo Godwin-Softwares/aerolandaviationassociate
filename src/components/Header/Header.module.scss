@@ -35,7 +35,8 @@
 
                         background: #9bce97;
                         color: white;
-
+                        display: block;
+                        transition: all 0.9s ease;
                 }
 
                 span{
@@ -45,6 +46,7 @@
                 &:hover{
 
                     color: white;
+                    transition: all 0.9s ease;
 
                 }
                    

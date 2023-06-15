@@ -102,20 +102,7 @@ const Header = () => {
                         <BiPhoneCall size={"40px"} />
                     </li> 
                    </ul>
-                {/* <ul 
-                    style={getMenuStyles(menuOpened)}
-                    className={`flexCenter ${css.menu}`}>
-                    <li><a href="">Courses</a></li>
-                    <li><a href="">Admission</a></li>
-                    <li><a href="">Students</a></li>
-                    <li><a href="">About us</a></li>
-                    <li><a href="">Contact us</a></li>
-                    <li className={`flexCenter ${css.phone}`}>
-                        <p>+234 8168879084</p>
-                        <BiPhoneCall size={"40px"} />
-                    </li>
-
-                </ul> */}
+              
 
                 <div className={css.menuIcon}
                     onClick={()=>setMenuOpened(prev=>!prev)}
